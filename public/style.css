@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    min-height: 100vh;
+    color: #293264;
+    background-color: #F5F7FB;
+    background-image: url("./images/blue-blob.png"), url("./images/yellow-blob.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat;
+    background-size: 30%;
+
+}
+
+
+.startpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.startpage--header {
+    margin-block-end: 11px;
+    font-size: 31.25px;
+    line-height: 37px;
+}
+
+.startpage--description {
+    line-height: 19px;
+    margin-block: 0;
+}
+
+.start-button {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #4D5B9E;
+    border-radius: 15px;
+    width: 193px;
+    height: 52px;  
+    line-height: 19px;
+    margin-block-start: 29px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    font: inherit;
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+} */
+
+/* .question-answers {
+    display: flex;
+    
+} */
+
+.trivia-page {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.question-title {
+    line-height: 19px;
+    
+}
+
+.answer-button {
+    border: #293264 1px solid;
+    border-radius: 10px;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    color: #293264;
+    margin-inline-end: 13px;
+    background-color: transparent;
+    padding: 4px 15px;
+    cursor: pointer;    
+}
+
+.selected-answer {
+    background-color: #D6DBF5;
+}
+
+.selected-answer.correct-answer {
+    background: #94D7A2;
+}
+
+.selected-answer.incorrect-answer {
+    background: #F8BCBC;
+    opacity: 0.5;
+
+}
+
+.trivia-split-line {
+    border: 0.794239px solid #DBDEF0;   
+    margin-block-start: 20px; 
+    margin-block-end: 0
+}
+
+.trivia-page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.trivia-page--button {
+    align-self: center;
+    
+
+}
+
+.check-answers-button {
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    border: none;
+    margin-block-start: 30px;
+    color: #F5F7FB;
+    font-weight: 600;
+    line-height: 12px;
+    font-size: 11px;
+    width: 120px;
+    height: 35px;
+
+}
