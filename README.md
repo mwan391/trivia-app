@@ -1,3 +1,3 @@
 # trivia-app
 
-trivia data from https://opentdb.com/
+* api from https://opentdb.com/
